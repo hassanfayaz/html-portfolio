@@ -2,14 +2,6 @@
   text-align: center;
 }
 
-#title h1 {
-  font-size: 2.5rem;
-}
-@media (min-width: 800px) {
-  #title h1 {
-    font-size: 4rem;
-  }
-}
 #articles {
   display: grid;
   gap: 5rem;
@@ -36,7 +28,6 @@
   transition: 0.15s;
   gap: 1rem;
   background-color: hsl(240, 20%, 95%);
-
 }
 #popular .article:hover {
   box-shadow: 0 1px 30px 0 rgb(0 0 0 / 0.2), 0 1px 2px -1px rgb(0 0 0 / 0.1);

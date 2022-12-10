@@ -87,6 +87,12 @@ h1 {
   font-family: Orbitron, sans-serif;
 }
 
+@media (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
 #header {
   padding: 0 1rem;
   display: flex;
